@@ -8,7 +8,7 @@
 
 #define C_STATUS 1
 
-pthread_mutex_t MUTEX;  /* mutex for sync display */
+pthread_mutex_t MUTEX;
 
 #define LOCK pthread_mutex_lock(&MUTEX)
 #define UNLOCK pthread_mutex_unlock(&MUTEX)
